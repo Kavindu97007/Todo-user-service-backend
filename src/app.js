@@ -18,6 +18,7 @@ app.use(cors({
 // Explicitly handle the preflight OPTIONS request
 app.options('/api/users/register', cors()); // Handle preflight OPTIONS request for this route
 
+
 app.use(express.json()); // Parse JSON requests
 
 
